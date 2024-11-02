@@ -1,0 +1,45 @@
+# Environment Variables
+.env
+config/config.py
+
+# Build Artifacts
+dist/
+*.egg-info
+__pycache__
+
+# Development-Specific Files
+*.pyc
+*.pyo
+*.so
+*.egg
+
+# IDE Configuration
+.vscode
+.idea
+
+# Logs and Cache Files
+*.log
+*.cache
+
+# Other
+venv
+*.sqlite
+*.db
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.ico
+*.svg
+*.html
+*.css
+*.js
+*.map
+*.json
+*.xml
+
+# Ignore Docker-related files
+Dockerfile
+docker-compose.yml
+docker-compose.override.yml
+docker-compose.dev.yml
